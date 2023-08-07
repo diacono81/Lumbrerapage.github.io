@@ -1,0 +1,41 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: hsl(193, 90%, 61%);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.Hombres {
+    background-color: rgb(198, 241, 184);
+    color: white;
+    text-align: left;
+    padding: 10px;
+}
+
+.Mujeres {
+    background-color: rgb(239, 172, 243);
+    color: white;
+    text-align: left;
+    padding: 10px;
+}
+.noticia {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+.titulo {
+    font-size: 1.5em;
+}
+.fecha {
+    color: #666;
+}
+.contenido {
+    margin-top: 10px;
+}
