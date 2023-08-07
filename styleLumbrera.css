@@ -41,9 +41,35 @@ header {
 }
 
 img {
-    width: 150px; /* Ajusta el ancho según tus necesidades */
+    width: 55px; /* Ajusta el ancho según tus necesidades */
     height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
     position: absolute;
-    top: 10px; /* Ajusta la distancia desde la parte superior */
-    right: 10px; /* Ajusta la distancia desde la derecha */
+    top: 2px; /* Ajusta la distancia desde la parte superior */
+    right: 5px; /* Ajusta la distancia desde la derecha */
+}
+
+h1 {
+    width: auto;
+    margin: 0;
+    text-align: left; /* Alineación por defecto */
+}
+
+@media (max-width: 768px) {
+    h1 {
+        text-align: left; /* Alineación a la izquierda en pantallas móviles */
+        padding-left: 10px; /* Agregar espacio desde el borde izquierdo */
+    }
+}
+
+h2 {
+    width: auto;
+    margin: 0;
+    text-align: left; /* Alineación por defecto */
+}
+
+@media (max-width: 768px) {
+    h2 {
+        text-align: left; /* Alineación a la izquierda en pantallas móviles */
+        padding-left: 10px; /* Agregar espacio desde el borde izquierdo */
+    }
 }
