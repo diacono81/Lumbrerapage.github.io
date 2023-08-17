@@ -98,3 +98,12 @@ h2 {
     }
 }
 
+.boton {
+    padding: 15px 30px; /* Ajusta el relleno (padding) para aumentar el tamaño */
+    font-size: 18px; /* Ajusta el tamaño de fuente */
+    background-color: #007bff; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Quita el borde */
+    border-radius: 10px; /* Agrega esquinas redondeadas */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+}
