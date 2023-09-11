@@ -31,6 +31,14 @@ header {
     text-align: left;
     padding: 10px;
 }
+
+.MemorizaciónGrupal {
+    background-color: rgb(234, 243, 172);
+    color: white;
+    text-align: left;
+    padding: 10px;
+}
+
 .noticia {
     border: 1px solid #ddd;
     margin: 10px;
